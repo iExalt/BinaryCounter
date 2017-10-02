@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at counter.sv(11): always construct contains both blocking and non-blocking assignments File: C:/Users/Clement/Desktop/Clement/Work/Code/FPGA/counter/counter.sv Line: 11
+Warning (10268): Verilog HDL information at counter.sv(13): always construct contains both blocking and non-blocking assignments File: C:/Users/Clement/Desktop/Clement/Work/Code/GitHub/BinaryCounter/counter/counter.sv Line: 13

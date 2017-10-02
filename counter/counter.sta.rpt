@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for counter
-Fri Sep 15 22:02:19 2017
+Mon Oct 02 11:31:05 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -1113,7 +1113,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Fri Sep 15 22:02:17 2017
+    Info: Processing started: Mon Oct 02 11:31:03 2017
 Info: Command: quartus_sta counter -c counter
 Info: qsta_default_script.tcl version: #1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -1185,8 +1185,8 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 665 megabytes
-    Info: Processing ended: Fri Sep 15 22:02:19 2017
+    Info: Peak virtual memory: 666 megabytes
+    Info: Processing ended: Mon Oct 02 11:31:05 2017
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 

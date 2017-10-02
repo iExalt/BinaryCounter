@@ -1,5 +1,5 @@
 Fitter report for counter
-Fri Sep 15 22:02:14 2017
+Mon Oct 02 11:30:59 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Sep 15 22:02:14 2017       ;
+; Fitter Status                      ; Successful - Mon Oct 02 11:30:59 2017       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; counter                                     ;
 ; Top-level Entity Name              ; counter                                     ;
@@ -158,7 +158,7 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.3%      ;
+;     Processors 2-4         ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -210,7 +210,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Clement/Desktop/Clement/Work/Code/FPGA/counter/counter.pin.
+The pin-out file can be found in C:/Users/Clement/Desktop/Clement/Work/Code/GitHub/BinaryCounter/counter/counter.pin.
 
 
 +---------------------------------------------------------------------+
@@ -1029,7 +1029,7 @@ Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
 Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
-Info (176353): Automatically promoted node clk~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: C:/Users/Clement/Desktop/Clement/Work/Code/FPGA/counter/counter.sv Line: 2
+Info (176353): Automatically promoted node clk~input (placed in PIN R8 (CLK15, DIFFCLK_6p)) File: C:/Users/Clement/Desktop/Clement/Work/Code/GitHub/BinaryCounter/counter/counter.sv Line: 4
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G18
 Info (176233): Starting register packing
 Info (176235): Finished register packing
@@ -1049,25 +1049,25 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X0_Y23 to location X9_Y34
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.08 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
-Info (144001): Generated suppressed messages file C:/Users/Clement/Desktop/Clement/Work/Code/FPGA/counter/counter.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/Clement/Desktop/Clement/Work/Code/GitHub/BinaryCounter/counter/counter.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 1409 megabytes
-    Info: Processing ended: Fri Sep 15 22:02:15 2017
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 1413 megabytes
+    Info: Processing ended: Mon Oct 02 11:30:59 2017
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:06
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Clement/Desktop/Clement/Work/Code/FPGA/counter/counter.fit.smsg.
+The suppressed messages can be found in C:/Users/Clement/Desktop/Clement/Work/Code/GitHub/BinaryCounter/counter/counter.fit.smsg.
 
 
